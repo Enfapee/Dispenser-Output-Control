@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "dispenser_output_control",
+  "version": "${version}",
+  "name": "Dispenser Output Control",
+  "description": "Prototype GUI for choosing which of two configured items a dispenser should output.",
+  "authors": [
+    "Anonymous"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.dispensercontrol.DispenserOutputControlClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
