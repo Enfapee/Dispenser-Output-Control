@@ -4,7 +4,6 @@ A tiny Fabric 1.21.11 client mod prototype that opens a GUI for choosing between
 
 The GUI is opened with `O` by default. It lets you type two item IDs, pick slot A or slot B, and save the choice in memory for the current game session.
 
-This is intentionally GUI-focused. It does not change real dispenser behavior yet.
 
 ## Build
 
